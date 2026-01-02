@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Your Name | Web Developer Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="container header">
+    <h1>Your Name</h1>
+    <p class="subtitle">Web Development Student (Associate Degree) • Frontend + Backend</p>
+
+    <nav class="nav">
+      <a class="btn" href="index.html">Home</a>
+      <a class="btn" href="projects.html">Projects</a>
+      <a class="btn" href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="card">
+      <h2>About Me</h2>
+      <p>
+        Write 5–8 lines here about your background, what you’re studying, what you enjoy building,
+        and what roles you’re targeting (Frontend / Full Stack / Web Developer).
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>Tools & Technologies</h2>
+      <div class="grid">
+        <div>
+          <h3>Frontend</h3>
+          <ul>
+            <li>HTML5, CSS3</li>
+            <li>JavaScript (ES6+)</li>
+            <li>React / Angular (if applicable)</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Backend</h3>
+          <ul>
+            <li>Node.js, Express</li>
+            <li>REST APIs</li>
+            <li>MongoDB / SQL (if applicable)</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Tools</h3>
+          <ul>
+            <li>Git, GitHub</li>
+            <li>VS Code</li>
+            <li>Chrome DevTools</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>Featured Assignment Projects</h2>
+      <p class="muted">A few highlights — see the full list on the Projects page.</p>
+
+      <div class="projects">
+        <article class="project">
+          <h3>Project Title #1</h3>
+          <p>What it does + what you learned + tech stack.</p>
+          <p class="links">
+            <a href="#">Live</a> · <a href="#">Code</a>
+          </p>
+        </article>
+
+        <article class="project">
+          <h3>Project Title #2</h3>
+          <p>What it does + what you learned + tech stack.</p>
+          <p class="links">
+            <a href="#">Live</a> · <a href="#">Code</a>
+          </p>
+        </article>
+      </div>
+
+      <p>
+        <a class="btn primary" href="projects.html">View All Assignment Projects →</a>
+      </p>
+    </section>
+
+    <section id="contact" class="card">
+      <h2>Contact</h2>
+      <ul>
+        <li>Email: <a href="mailto:you@example.com">you@example.com</a></li>
+        <li>GitHub: <a href="https://github.com/YOUR-USERNAME">github.com/YOUR-USERNAME</a></li>
+        <li>LinkedIn: <a href="#">Your LinkedIn</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="container footer">
+    <small>© <span id="year"></span> Your Name</small>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
